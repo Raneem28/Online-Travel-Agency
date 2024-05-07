@@ -1,2 +1,2 @@
 #include<iostream>
-hello
+0000
