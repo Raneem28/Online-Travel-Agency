@@ -62,7 +62,6 @@ class Booking : public Flight{
 
     }
 };
-
 int main() {
     Flight F;
     string inputDate, inputDest;
