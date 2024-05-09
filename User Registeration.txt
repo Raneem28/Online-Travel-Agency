@@ -1,0 +1,5 @@
+Account name: Password: 
+User name: 
+Age: 16477344
+CNIC: 6422204
+Address: 3313664,0,,

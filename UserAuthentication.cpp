@@ -60,7 +60,6 @@ void registeration(){
   }
 
 void display(){
-    char ans;
     cout << "            Your entered account information is            " << endl;
     cout << "---------------------User Information----------------------\n";
     cout << "Name: " << name << "   " << "Age: " << age << "   " << "CNIC: " << cnic << "   " << "Phone Number: " << phone_no << endl;  
