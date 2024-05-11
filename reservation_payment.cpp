@@ -88,7 +88,7 @@ int main() {
     string inputDate, inputDest;
     char ch;
     cout << "Enter the date you want to travel on: ";
-    getline(cin, inputDate);
+    getline (cin, inputDate);
     F.setDate(inputDate);
 
     F.searchDestination();

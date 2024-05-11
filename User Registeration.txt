@@ -1,0 +1,5 @@
+Account name: aneemPassword: 123
+User name: raneem
+Age: 19
+CNIC: 37301
+Address: 70,60,isl,pak
