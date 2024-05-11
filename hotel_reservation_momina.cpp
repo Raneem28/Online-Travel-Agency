@@ -126,7 +126,7 @@ int main() {
         if (studentResponse == "yes") {
             // Ask for university email address
             string email;
-            cout << "Please enter your university email address: ";
+            cout << "Please enter your university email address: "<<endl;
             cin >> email;
 
             // Apply 50% discount for students
