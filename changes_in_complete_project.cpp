@@ -367,7 +367,7 @@ int main() {
     suiteRoom.getPrice();
 
     // Reservation
-    cout << "\n\nPlease enter your room choice (Single/Deluxe/Suite) and quantity: ";
+    cout << "\n\nPlease enter your room choice (Single/Deluxe/Suite) and quantity: "<<endl;
     string roomType;
     int quantity;
     cin >> roomType >> quantity;
