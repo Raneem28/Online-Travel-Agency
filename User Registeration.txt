@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 Account name: aneemPassword: 123
 User name: raneem
 Age: 19
 CNIC: 37301
 Address: 70,60,isl,pak
+=======
+Account name: Password: 
+User name: 
+Age: 16477344
+CNIC: 6422204
+Address: 3313664,0,,
+>>>>>>> 8fe8c1e72e121b0c6a28465651560b6dfd88a649

@@ -1,4 +1,5 @@
 #include<iostream>
+#include<fstream>
 using namespace std;
 class User{
     public:
@@ -10,9 +11,11 @@ void registeration(){
     cout << "Welcome to our Flight Agency." << endl;
     cout << "Please Register your Account:\n";
     cout << "Account name: ";
+    cin.ignore();
     getline(cin, account);
     cout << "Password: ";
     cin >> password;
+
     cout << "Confirm Password: ";
     cin >> pass;
 
@@ -24,7 +27,8 @@ void registeration(){
     cout << "Password Matched" << endl;
     cout << "Please enter your personal information: " << endl;
     cout << "Name: ";
-    cin >> name;
+    cin.ignore();
+    getline(cin, name);
     cout << "Age: ";
     cin >> age;
     cout << "CNIC: ";
@@ -41,10 +45,22 @@ void registeration(){
     cout << "Country: "; 
     cin >> country;
 
+    ofstream myfile("User Registeration.txt");
+    if(myfile.is_open()){
+        myfile << "Account name: " << account << "Password: " << password << endl;
+        myfile << "User name: " << name << endl;
+        myfile << "Age: " << age << endl;
+        myfile << "CNIC: " << cnic << endl;
+        myfile << "Address: " << houseNo << "," << street << "," << city << "," << country << endl;  
+        myfile.close();
+    }
+    else{
+        cout << "Cannot open file" << endl;
+    }
   }
+
 void display(){
-    char ans;
-    cout << "Your entered account information is: " << endl;
+    cout << "            Your entered account information is            " << endl;
     cout << "---------------------User Information----------------------\n";
     cout << "Name: " << name << "   " << "Age: " << age << "   " << "CNIC: " << cnic << "   " << "Phone Number: " << phone_no << endl;  
 
